@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/process_info"
+        android:gravity="top"
+        android:textSize="15sp"
+        android:textColor="@color/teal_200"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="308dp"></TextView>
+    <View
+        android:background="@color/purple_200"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"></View>
+    <TextView
+        android:id="@+id/memory_info"
+        android:textColor="@color/purple_700"
+        android:textSize="15dp"
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="308dp"></TextView>
+    <View
+        android:background="@color/purple_200"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:background="@color/purple_700"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/create_process"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text="创建进程"
+            android:textColor="@color/black"></Button>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_200"></View>
+
+        <Button
+            android:id="@+id/timeEnd_process"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text="时间片到"
+            android:textColor="@color/black"></Button>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_200"></View>
+
+        <Button
+            android:id="@+id/block_process"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text="阻塞进程"
+            android:textColor="@color/black"></Button>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_200"></View>
+
+        <Button
+            android:id="@+id/arouse_process"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text="唤醒进程"
+            android:textColor="@color/black"></Button>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_200"></View>
+
+        <Button
+            android:id="@+id/over_process"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text="终止进程"
+            android:textColor="@color/black"></Button>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#E4DFDF"
+    android:orientation="vertical"
+    android:id="@+id/mydialog"
+    android:layout_height="300dp">
+
+    <TextView
+        android:text="Name:"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"></TextView>
+    <EditText
+        android:hint="name"
+        android:id="@+id/process_name"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></EditText>
+    <TextView
+        android:text="Size:"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"></TextView>
+    <EditText
+        android:hint="size"
+        android:id="@+id/process_size"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></EditText>
+
+</LinearLayout>
